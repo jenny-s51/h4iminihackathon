@@ -1,4 +1,4 @@
-# h4i mini hackathon
+# Hack for Impact Mini-Hackathon
 
 To run the application, first follow the steps below to setup the project on your local machine.
 
