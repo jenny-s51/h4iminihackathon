@@ -1,0 +1,15 @@
+<!-- This file inherits from the layout file-->
+<div class="title">
+<h1> Welcome to the webpage! </h1>
+
+</div>
+
+<form action="/login">
+    Username: <input type="text"><br>
+    Password: <input type="text"><br>
+    <input type="submit" value="Submit">
+</form> 
+
+{% extends "layout.html" %} {% block content %}
+<!-- add your code here that replaces the code block in layout.html-->
+{% endblock content %}
