@@ -1,15 +1,24 @@
 <!-- This file inherits from the layout file-->
+<link rel="stylesheet" href="../static/main.css">
+
+
+
 <div class="title">
-<h1> Welcome to the webpage! </h1>
+<h1 class="title2"> Welcome to the webpage! </h1>
 
 </div>
 
-<form action="/login">
-    Username: <input type="text"><br>
-    Password: <input type="text"><br>
-    <input type="submit" value="Submit"> 
-</form> 
-
 {% extends "layout.html" %} {% block content %}
 <!-- add your code here that replaces the code block in layout.html-->
+<img src="../static/img.jpg" alt="people" width="50%" class="center"/>
+
+
+
+<div class="wrapper">
+    <a class="waves-effect waves-light btn-large" href='/login'><i class="material-icons right">trending_flat</i>Login</a>
+    <a class="waves-effect waves-light btn-large" href='/signup'><i class="material-icons right">trending_flat</i>Sign up</a>
+</div>
+
+
 {% endblock content %}
+

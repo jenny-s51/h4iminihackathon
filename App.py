@@ -9,10 +9,14 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 @app.route("/", methods = ["GET"]) 
+
+def display_home(): 
+    return render_template('home.html') 
+
 @app.route("/login", methods = ["GET"]) 
 
-def display(): 
-    return render_template('home.html') 
+def display_login():
+    return render_template('login.html')
 
 # initializes app
 

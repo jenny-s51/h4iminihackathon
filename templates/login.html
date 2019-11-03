@@ -1,0 +1,33 @@
+<!-- This file inherits from the layout file-->
+
+
+
+<div class="title">
+        <h1> Enter your login info. </h1>
+        
+        </div>
+        
+        {% extends "layout.html" %} {% block content %}
+        <!-- add your code here that replaces the code block in layout.html-->
+        
+        <div class="row">
+                <div class="input-field col s4">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+        
+        <div class="row">
+                <div class="input-field col s4">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
+              </div>
+        
+ <a class="waves-effect waves-light btn-large" href='/login'><i class="material-icons right">trending_flat</i>Login</a>
+        
+        
+        
+        {% endblock content %}
+        
+        
