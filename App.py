@@ -12,7 +12,7 @@ app = Flask(__name__)
 @app.route("/login", methods = ["GET"]) 
 
 def display(): 
-    return render_template('home.html')
+    return render_template('home.html') 
 
 # initializes app
 
