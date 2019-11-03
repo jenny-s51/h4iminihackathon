@@ -1,4 +1,4 @@
-# h4iminihackathon
+# h4i mini hackathon
 
 To run the application, first follow the steps below to setup the project on your local machine.
 
