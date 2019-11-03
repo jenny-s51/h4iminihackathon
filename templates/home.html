@@ -1,0 +1,57 @@
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!-- This file inherits from the layout file-->
+<link rel="stylesheet" href="../static/main.css">
+
+
+</div>
+
+{% extends "layout.html" %} {% block content %}
+<!-- add your code here that replaces the code block in layout.html-->
+<img src="../static/img.jpg" alt="people" width="50%" class="center"/>
+
+
+
+<div class="wrapper">
+    <a class="waves-effect waves-light btn-large" href='/login'><i class="material-icons right">trending_flat</i>Login</a>
+    <a class="waves-effect waves-light btn-large" href='/signup'><i class="material-icons right">trending_flat</i>Sign up</a>
+</div>
+
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea" class="materialize-textarea" data-length="120"></textarea>
+          <label for="textarea">What's on your mind?</label>
+        </div>
+      </div>
+
+      <div class="button">
+            <button type="submit">Send your message</button>
+          </div>
+
+    </form>
+  </div>
+{% endblock content %}
+
+
+
+
+<script>  $(document).ready(function() {
+    $('input#input_text, textarea#textarea2').characterCounter();
+  });
+  </script>

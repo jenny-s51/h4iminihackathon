@@ -1,0 +1,32 @@
+
+h1 {
+  color: #009688;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title2 {
+    text-align: center;
+    color: #2e9494; 
+    font-size: 3.2rem;
+    line-height: 110%;
+    margin: 2.8rem 0 1.68rem 0;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: -25px;
+  }
+
+.waves-effect.waves-light.btn-large {
+
+background-color: rgb(72, 0, 206);
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+margin-bottom: 25px;
+}
+
